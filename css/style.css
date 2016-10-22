@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+    font-family: 'pantonblack_caps';
+    src: url('panton.black-caps-webfont.woff2') format('woff2'),
+         url('panton.black-caps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 1s; }
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/*************************/
+/**********HEADER*********/
+/*************************/
+header {
+  background: url('../images/img.png')  no-repeat center center ;
+  background-size: cover; 
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 270px;
+  position: relative;
+}
+header .logo {
+  float: left;
+}
+header .menu {
+  margin-top: 45px;
+  float: left;
+  display: inline-block;
+}
+header ul li {
+  display: inline-block;
+  color: #fff;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+header ul li a {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  border-bottom: 8px solid transparent;
+  padding-bottom: 25px;
+}
+header ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 8px solid #fff;
+}
+header .phone {
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+}
+header .phone img {
+  position: absolute;
+  left: 20px;
+}
+.sand {
+  display: none;
+  position: absolute;
+  z-index: 300;
+  font-size: 30px;
+  top: 30px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sand:hover {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+.button-top {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(69, 65, 65);
+  text-transform: uppercase;
+  text-align: center; 
+  padding: 10px 32px;
+  background: #fff;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.button-top:hover {
+  text-decoration: none;
+}
+.main-head {
+  margin-top: 85px;
+}
+.main-head h1 {
+  font-family: 'pantonblack_caps', sans-serif;
+  font-size: 33px;
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.main-head p {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(254, 254, 254);
+  margin-top: 50px;
+}
+.hand-card {
+  position: absolute;
+}
+.arrow {
+  text-align: center;
+}
+.arrow img {
+  position: absolute;
+  bottom: 3000%;
+}
+/*************************/
+/**********youtube*********/
+/*************************/
+.youtube {
+  background: url('../images/bg-lines.png')  no-repeat center center ;
+  background-size: cover; 
+  padding-top: 40px;
+  position: relative;
+  text-align: center;
+  padding-bottom: 170px;
+}
+.youtube:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(241, 245, 248, 0.5);
+}
+.youtube h2 {
+  font-size: 36px;
+  font-family: 'pantonblack_caps', sans-serif;
+  color: rgb(69, 65, 65);
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 50px;
+  margin-top: 85px;
+}
+.youtube h2 span {
+  color: #FB0707;
+}
+
+/*************************/
+/**********recom*********/
+/*************************/
+.recom {
+  background: url('../images/bg-lines.png')  no-repeat center center ;
+  background-size: cover; ;
+  position: relative;
+  text-align: center;
+}
+.recom:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+.recom h2{
+  font-size: 36px;
+  font-family: 'pantonblack_caps', sans-serif;
+  color: rgb(69, 65, 65);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 135px;
+  margin-bottom: 35px;
+}
+.recom h3 {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgb(69, 65, 65);
+  line-height: 1.25;
+  text-align: center;
+}
+.recom h4 {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(69, 65, 65);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+.recom h4 span {
+  font-family: 'pantonblack_caps', sans-serif;
+  color: #E9066B;
+  font-size: 26px;
+  font-weight: 900;
+}
+.recom h5 {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(69, 65, 65);
+  line-height: 1.2;
+  text-align: center;
+}
+.recom h5 span {
+  font-family: 'pantonblack_caps', sans-serif;
+  color: #61C25E;
+  font-size: 26px;
+  font-weight: 900;
+}
+/*************************/
+/**********order*********/
+/*************************/
+.recom .order {
+ background: url('../images/05.png')  no-repeat center center ;
+  background-size: cover; ;
+  position: relative;
+  text-align: center;
+-webkit-box-shadow: 0px 14px 26px 0px rgba(50, 50, 50, 0.62);
+-moz-box-shadow:    0px 14px 26px 0px rgba(50, 50, 50, 0.62);
+box-shadow:         0px 14px 26px 0px rgba(50, 50, 50, 0.62);
+padding-top: 75px;
+margin-top: 80px;
+padding-bottom: 120px;
+}
+ .recom .order h2 {
+  color: rgb(69, 65, 65);
+  font-size: 36px;
+  font-family: 'pantonblack_caps', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 0;
+}
+.recom .order h2 span {
+  color: rgb(233, 6, 107);
+}
+.recom .order .chose {
+   background: url('../images/Rectangle 3.png')  no-repeat center center ;
+  background-size: cover; ;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px; 
+  padding-bottom: 10px; 
+}
+
+.recom .order .chose .card-1 {
+  width: 55px;
+  margin-top: 20px;
+}
+.recom .order .chose .card-1:hover {
+  cursor: pointer;
+   transform: scale(1.5,1.5)
+}
+.recom .order .chose .card-2 {
+  width: 55px;
+  margin-top: 20px;
+}
+.recom .order .chose .card-2:hover {
+   cursor: pointer;
+   transform: scale(1.5,1.5)
+}
+.recom .order .chose .card-3 {
+  width: 55px;
+  margin-top: 20px;
+}
+.recom .order .chose .card-3:hover {
+   cursor: pointer;
+   transform: scale(1.5,1.5)
+}
+.recom .order .form-horizontal input {
+  border: none;
+  border-bottom: 3px solid #D7D7D7;
+  border-radius: 0px;
+  height: 40px;
+  outline: none;
+}
+.checkbox {
+  margin-left: 5%;
+}
+.recom .order .form-horizontal .fa {
+  color: #D7D7D7;
+}
+.recom .order .form-horizontal .fa:hover {
+  color: #61C25E;
+}
+.recom .order .form-horizontal input:focus {
+  border-bottom: 3px solid  rgb(255, 255, 103);
+}
+
+.recom .order .form-horizontal .fa-smile-o {
+  font-size: 25px;
+}
+.recom .order .form-horizontal .fa-check-circle-o {
+  font-size: 25px;
+}
+.recom .order .form-horizontal .fa-envelope {
+  font-size: 22px;
+}
+.recom .order .form-horizontal .fa-mobile {
+  font-size: 35px;
+}
+.recom .order input.tel1, .recom .order input.born1 {
+  width: 20%
+}
+.recom .order .tel2, .recom .order .born2 {
+  width: 25%
+}
+.recom .order .tel3, .recom .order .born3 {
+  width: 50%
+}
+.recom .order .checkbox input {
+  height: 15px;
+}
+.recom .order .checkbox {
+  text-align: left;
+  padding-left: 35px;
+  color: #ccc;
+}
+.checkbox-inline
+.recom .order .form-horizontal .fa-calendar-o {
+  font-size: 25px;
+}
+
+.order-but button {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #E20467;
+  padding: 21px 40px;
+  border-radius: 40px;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 10px 24px 0px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    0px 10px 24px 0px rgba(50, 50, 50, 0.55);
+box-shadow:         0px 10px 24px 0px rgba(50, 50, 50, 0.55);
+}
+.order-but button:hover {
+  background: #fff;
+  color: #E20467;
+}
+.order-but button .fa-check {
+  margin-right: 20px;
+}
+
+.promo h5 {
+  font-size: 72px;
+  font-family: 'pantonblack_caps', sans-serif;
+  color: rgb(97, 194, 94);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 75px;
+  margin-bottom: 22px;
+}
+.promo h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.42857143;
+color: #333333;
+}
+.promo p {
+  color: #A19999;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 22px;
+}
+
+
+
+footer img {
+  position: absolute;
+bottom: 0px;
+left: 0px;
+right: 0px;
+}
+
+.non-active {
+  display: none;
+}
+.order .chosen img {
+  width: 347px;
+}
